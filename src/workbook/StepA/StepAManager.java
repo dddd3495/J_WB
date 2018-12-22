@@ -18,13 +18,32 @@ public class StepAManager {
 			printf("=>원하는 메뉴는?(0:exit) :");
 			menu = s.nextInt();
 			if(menu == 0) break;
+			
 			switch(menu) {
 			case 1: 				
 				YearToAge yta = new YearToAge();
 				yta.printAge();
+				break;
+			
+			case 2:
+				A2 a2 = new A2();
+				a2.printA2();
+				break;
+			case 3:
+				break;
+			case 4:
+				break;
+				
+			case 5:
+				break;
+			case 6:
+				break;
+			case 7:
+				break;
+				
 			}
 		}
-		
 	}
 	void printf(String s){System.out.print(s);} 
 }
+	
